@@ -23,7 +23,7 @@ void append();
 void no_of_records();
 void search();
 void update();
-void delete ();
+void delete();
 void sort_by_total_on_screen();
 void sort_by_total_in_file();
 void sort_by_name_on_screen();
@@ -70,7 +70,7 @@ int main()
             update();
             break;
         case 7:
-            delete ();
+            delete();
             break;
         case 8:
             sort_by_total_on_screen();
@@ -266,7 +266,7 @@ void update()
         printf("\nRecord not found\n");
     }
 }
-void delete ()
+void delete()
 {
     student s1;
     FILE *ptr = NULL, *ptr1 = NULL;
